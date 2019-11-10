@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'action-sheet', loadChildren: './pages/action-sheet/action-sheet.module#ActionSheetPageModule' },
   { path: 'item-list', loadChildren: './pages/item-list/item-list.module#ItemListPageModule' },
   { path: 'avatar', loadChildren: './pages/avatar/avatar.module#AvatarPageModule' },
+  { path: 'botones', loadChildren: './pages/botones/botones.module#BotonesPageModule' },
 ];
 
 @NgModule({
