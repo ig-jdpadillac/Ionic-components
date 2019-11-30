@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: 'check', loadChildren: './pages/check/check.module#CheckPageModule' },
   { path: 'date-time', loadChildren: './pages/date-time/date-time.module#DateTimePageModule' },
   { path: 'fab', loadChildren: './pages/fab/fab.module#FabPageModule' },
+  { path: 'gird', loadChildren: './pages/gird/gird.module#GirdPageModule' },
 ];
 
 @NgModule({
