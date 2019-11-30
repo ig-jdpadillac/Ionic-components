@@ -14,6 +14,7 @@ const routes: Routes = [
   { path: 'date-time', loadChildren: './pages/date-time/date-time.module#DateTimePageModule' },
   { path: 'fab', loadChildren: './pages/fab/fab.module#FabPageModule' },
   { path: 'gird', loadChildren: './pages/gird/gird.module#GirdPageModule' },
+  { path: 'infinite-scroll', loadChildren: './pages/infinite-scroll/infinite-scroll.module#InfiniteScrollPageModule' },
 ];
 
 @NgModule({
